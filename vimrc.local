@@ -1,0 +1,46 @@
+" Color scheme
+colorscheme ir_black
+
+" set word wrap
+set wrap
+" set indent size to 2
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+
+" set gg=G settings
+set expandtab " use spaces instead of tabs
+set ts=2
+set sts=2
+
+"  create an undo file
+set undofile
+
+" Turn off indent guides
+""g:indent_guides_enable_on_vim_startup = 0
+
+
+" set text width to something managible by terminal
+" set textwidth=79
+
+" disable arrow keys so I can hate myself
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+" remap ; to : in normal mode
+nnoremap ; :
+
+" remap jj in insert mode to <ESC> to go into normal mode
+inoremap jj <ESC>
+
+" add support for C-hjkl for window navigation in normal mode
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l

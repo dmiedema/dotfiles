@@ -1,0 +1,10 @@
+PATH='/usr/local/bin':$PATH
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Add rmv scripts to env
+source ~/.rvm/scripts/rvm
+
+source $HOME/.hh
+
+PATH=$PATH:/Applications/Vagrant/bin/
+
+export GOPATH=$HOME/.golang

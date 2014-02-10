@@ -1,0 +1,7 @@
+alias vi=vim
+source $HOME/.hh
+source $HOME/.irssi-notifier.sh
+alias udpate=update
+alias podu='pod update'
+
+alias t=todo2
