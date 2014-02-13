@@ -18,8 +18,9 @@ antigen bundles <<EOBUNDLES
   tmux
   gem
 
-
   # Meta?
+  brew
+  common-aliases
   tmuxinator
   command-not-found
   zsh-users/zsh-syntax-highlighting
