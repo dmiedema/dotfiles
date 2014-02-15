@@ -17,13 +17,11 @@ set sts=2
 set undofile
 
 " Turn off indent guides
-""g:indent_guides_enable_on_vim_startup = 0
 
 
 " set text width to something managible by terminal
 " set textwidth=79
 
-" disable arrow keys so I can hate myself
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -44,3 +42,9 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+
+" unbundle autocomplete thing
+UnBundle 'AutoClose'
+
+
