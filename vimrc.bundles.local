@@ -1,2 +1,2 @@
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'vim-scripts/mru'
+Bundle 'vim-scripts/MRU'
