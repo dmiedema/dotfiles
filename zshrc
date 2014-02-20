@@ -21,7 +21,7 @@ antigen bundles <<EOBUNDLES
   # Meta?
   brew
   common-aliases
-  tmuxinator
+  tmuxinator/tmuxinator
   command-not-found
   zsh-users/zsh-syntax-highlighting
   arialdomartini/oh-my-git
