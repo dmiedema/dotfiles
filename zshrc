@@ -2,6 +2,7 @@
 source $HOME/.antigen/antigen.zsh
 source $HOME/.aliases
 source $HOME/.zsh_path
+source $HOME/.zshrc.local
 
 # Set Editor
 export EDITOR='vim'
