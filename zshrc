@@ -19,12 +19,15 @@ antigen bundles <<EOBUNDLES
   tmux
   gem
 
+  dmiedema/fuck-you
+
   # Meta?
   brew
   common-aliases
   tmuxinator/tmuxinator
   command-not-found
   zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-completions
   arialdomartini/oh-my-git
   zsh-users/zsh-history-substring-search
   rupa/z
