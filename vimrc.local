@@ -46,5 +46,3 @@ nnoremap <C-l> <C-w>l
 
 " unbundle autocomplete thing
 UnBundle 'AutoClose'
-
-
