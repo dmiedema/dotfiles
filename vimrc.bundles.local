@@ -1,2 +1,3 @@
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'vim-scripts/MRU'
+Bundle 'wellle/tmux-complete.vim'
