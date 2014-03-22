@@ -31,6 +31,8 @@ antigen bundles <<EOBUNDLES
   arialdomartini/oh-my-git
   zsh-users/zsh-history-substring-search
   rupa/z
+  # Vim mode?
+  hchbaw/opp.zsh
 EOBUNDLES
 
 antigen theme terminalparty
