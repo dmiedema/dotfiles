@@ -33,9 +33,10 @@ antigen bundles <<EOBUNDLES
   rupa/z
   # Vim mode?
   hchbaw/opp.zsh
+  sindresorhus/pure
 EOBUNDLES
 
-antigen theme terminalparty
+#antigen theme terminalparty
 
 antigen apply
 
