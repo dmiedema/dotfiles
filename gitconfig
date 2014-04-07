@@ -19,3 +19,5 @@
 	editor = vim
 [help]
 #	autocorrect = 5
+[alias]
+	undo-commit = reset --soft HEAD^
