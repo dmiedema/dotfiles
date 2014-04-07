@@ -16,8 +16,8 @@ set sts=2
 "  create an undo file
 set undofile
 
-" Turn off indent guides
-
+" turn on buffer lines
+let g:airline#extensions#tabline#enabled = 1
 
 " set text width to something managible by terminal
 " set textwidth=79
