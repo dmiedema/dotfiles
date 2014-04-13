@@ -21,3 +21,7 @@
 #	autocorrect = 5
 [alias]
 	undo-commit = reset --soft HEAD^
+	co = checkout
+	p = push
+	st = status -sb
+	logg = log --all --graph --decorate --oneline --abbrev-commit
