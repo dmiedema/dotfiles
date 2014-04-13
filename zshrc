@@ -21,6 +21,12 @@ antigen bundles <<EOBUNDLES
   # Tools & Things
   tmux
   gem
+  vagrant
+
+  # OS X specific stuff
+  osx
+  pod
+  xcode
 
   dmiedema/fuck-you
 
@@ -36,7 +42,7 @@ antigen bundles <<EOBUNDLES
   rupa/z
   # Vim mode?
   hchbaw/opp.zsh
-  
+    
   # This take care of theme
   sindresorhus/pure
 EOBUNDLES
