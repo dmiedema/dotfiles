@@ -4,6 +4,9 @@ source $HOME/.aliases
 source $HOME/.zsh_path
 source $HOME/.zshrc.local
 
+# setup independent histories for each zsh session
+setopt append_history no_inc_append_history no_share_history
+
 # Set Editor
 export EDITOR='vim'
 
@@ -33,13 +36,10 @@ antigen bundles <<EOBUNDLES
   rupa/z
   # Vim mode?
   hchbaw/opp.zsh
+  
+  # This take care of theme
   sindresorhus/pure
 EOBUNDLES
 
-#antigen theme terminalparty
-
 antigen apply
-
-
-
 
