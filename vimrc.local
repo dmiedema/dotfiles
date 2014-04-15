@@ -14,8 +14,12 @@ set expandtab " use spaces instead of tabs
 set ts=2
 set sts=2
 
-"  create an undo file
+" create an undo file
 set undofile
+
+" open new splits on bottom and on right. Its better this way
+set splitright
+set splitbelow
 
 " turn on buffer lines
 let g:airline#extensions#tabline#enabled = 1
