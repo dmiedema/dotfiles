@@ -42,7 +42,7 @@ antigen bundles <<EOBUNDLES
   rupa/z
   # Vim mode?
   hchbaw/opp.zsh
-    
+
   # This take care of theme
   sindresorhus/pure
 EOBUNDLES
