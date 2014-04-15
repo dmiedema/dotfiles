@@ -1,5 +1,6 @@
 " Color scheme
 colorscheme ir_black
+let mapleader = " "
 
 " set word wrap
 set wrap
