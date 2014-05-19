@@ -25,6 +25,9 @@ set splitbelow
 " turn on buffer lines
 let g:airline#extensions#tabline#enabled = 1
 
+" YouCompleteMe stuff
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
