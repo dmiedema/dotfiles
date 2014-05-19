@@ -1,6 +1,6 @@
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'vim-scripts/MRU'
-Bundle 'wellle/tmux-complete.vim'
+" Bundle 'wellle/tmux-complete.vim'
 Bundle 'tpope/vim-dispatch'
 Bundle 'tpope/vim-commentary'
 Bundle 'mhinz/vim-startify'
@@ -8,5 +8,5 @@ Bundle 'wellle/tmux-complete.vim'
 
 " Experimental
 
-Bundle 'shougo/vimproc'
-Bundle 'shougo/vimshell'
+" Bundle 'shougo/vimproc'
+" Bundle 'shougo/vimshell'
