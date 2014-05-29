@@ -1,6 +1,7 @@
 " Color scheme
 " colorscheme ir_black
-colorscheme Tomorrow-Night
+" colorscheme Tomorrow-Night
+colorscheme Tomorrow
 " let mapleader = " "
 
 " set word wrap
@@ -53,3 +54,5 @@ nnoremap <C-l> <C-w>l
 UnBundle 'AutoClose'
 
 let g:tmuxcomplete#trigger = ''
+
+set modeline
