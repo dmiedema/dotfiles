@@ -32,6 +32,7 @@ antigen bundles <<EOBUNDLES
 
   # Meta?
   brew
+  Tarrasch/zsh-bd
   common-aliases
   tmuxinator/tmuxinator
   command-not-found
