@@ -25,6 +25,7 @@ set splitbelow
 
 " turn on buffer lines
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'tomorrow'
 
 " YouCompleteMe stuff
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
