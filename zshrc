@@ -33,6 +33,7 @@ antigen bundles <<EOBUNDLES
   # Meta?
   brew
   Tarrasch/zsh-bd
+  tarruda/zsh-autosuggestions
   common-aliases
   tmuxinator/tmuxinator
   command-not-found
@@ -47,6 +48,16 @@ antigen bundles <<EOBUNDLES
   # This take care of theme
   sindresorhus/pure
 EOBUNDLES
+
+# zsh-autosuggestions
+# Start the server
+zle-line-init() {
+  zle autosuggest-start
+}
+zle -N zle-line-init
+# Accept suggested word without leaving insert mode
+bindkey '^f' vi-forward-word
+
 
 antigen apply
 
