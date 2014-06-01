@@ -1,5 +1,5 @@
 " Color scheme
-" colorscheme ir_black
+" coLorscheme ir_black
 " colorscheme Tomorrow-Night
 colorscheme Tomorrow
 " let mapleader = " "
@@ -55,5 +55,12 @@ nnoremap <C-l> <C-w>l
 UnBundle 'AutoClose'
 
 let g:tmuxcomplete#trigger = ''
+
+let g:tmuxline_separators = {
+    \ 'left' : '',
+    \ 'left_alt': '>',
+    \ 'right' : '',
+    \ 'right_alt' : '<',
+    \ 'space' : ' '}
 
 set modeline
