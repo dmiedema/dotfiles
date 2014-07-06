@@ -1,2 +1,2 @@
 EXCLUDES="boostrap.sh README.md Tomorrow.terminal tmuxlinesnapshot.conf"
-SYMLINK_DIRS="antigen"
+SYMLINK_DIRS="antigen hydra"
