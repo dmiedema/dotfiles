@@ -9,6 +9,7 @@ Bundle 'edkolev/tmuxline.vim'
 
 
 " Experimental
+Bundle 'kovisoft/slimv'
 
 " Bundle 'shougo/vimproc'
 " Bundle 'shougo/vimshell'
