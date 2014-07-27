@@ -3,3 +3,4 @@ alias udpate=update
 alias podu='pod update'
 
 alias t=todo2
+alias php=/usr/local/Cellar/php55/5.5.15/bin/php
