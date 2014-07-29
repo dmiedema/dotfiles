@@ -27,3 +27,5 @@
 	logg = log --all --graph --decorate --oneline --abbrev-commit
 [push]
 	default = current
+[pull]
+  default = current
