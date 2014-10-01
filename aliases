@@ -1,5 +1,5 @@
 alias vi=vim
 alias udpate=update
 alias podu='pod update'
-
+alias plistbuddy=/usr/libexec/PlistBuddy
 alias t=todo2
