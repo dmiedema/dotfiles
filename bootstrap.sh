@@ -63,6 +63,6 @@ if [ ! "$TMUX_EXIST" ]; then
 fi
 
 `git clone https://github.com/dmiedema/dotfiles $HOME/.dotfiles`
-`rcup -d $HOME/.dotfiles -x README.md -x bootstrap.sh -x Tomorrow.terminal -x tmuxlinesnapshop.conf`
+`rcup -x README.md -x bootstrap.sh -x Tomorrow.terminal -x tmuxlinesnapshop.conf`
 touch ~/.zshrc.local
 
