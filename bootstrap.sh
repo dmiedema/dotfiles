@@ -47,6 +47,7 @@ if [ ! "$RCM_EXISTS" ]; then
     fi
     `brew tap thoughtbot/formulae`
     `brew install rcm`
+    `brew install chisel` # for linking up lldbinit
   else # Not on OS X, so linux
     echo "Installation of rcm is not automated for linux\n"
     echo "Please install it and rerun me.\n"
