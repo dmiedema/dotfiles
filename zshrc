@@ -46,7 +46,8 @@ antigen bundles <<EOBUNDLES
   hchbaw/opp.zsh
 
   # This take care of theme
-  sindresorhus/pure
+  # sindresorhus/pure
+  dmiedema/pure
 EOBUNDLES
 
 # zsh-autosuggestions
