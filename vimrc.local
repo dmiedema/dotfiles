@@ -56,6 +56,8 @@ UnBundle 'AutoClose'
 
 let g:tmuxcomplete#trigger = ''
 
+autocmd BufWritePre *.rb :%s/\s\+$//e
+
 let g:tmuxline_separators = {
     \ 'left' : '',
     \ 'left_alt': '>',
