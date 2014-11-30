@@ -6,7 +6,7 @@ Bundle 'tpope/vim-commentary'
 Bundle 'mhinz/vim-startify'
 Bundle 'wellle/tmux-complete.vim'
 Bundle 'edkolev/tmuxline.vim'
-
+Bundle 'urso/haskell_syntax.vim'
 
 " Experimental
 Bundle 'kovisoft/slimv'
