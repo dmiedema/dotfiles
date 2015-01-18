@@ -1,6 +1,6 @@
 [user]
 	name = dmiedema
-  	email = danielmiedema@me.com
+	email = danielmiedema@me.com
 [diff]
 	tool = Kaleidoscope
 [difftool "Kaleidoscope"]
@@ -31,7 +31,7 @@
 [push]
 	default = current
 [pull]
-  	default = current
+	default = current
 [filter "media"]
 	required = true
 	clean = git media clean %f
