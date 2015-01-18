@@ -8,6 +8,10 @@ Bundle 'wellle/tmux-complete.vim'
 Bundle 'edkolev/tmuxline.vim'
 Bundle 'urso/haskell_syntax.vim'
 
+Bundle 'toyamarinyon/vim-swift'
+Bundle 'b4winckler/vim-objc'
+
+
 " Experimental
 Bundle 'kovisoft/slimv'
 
