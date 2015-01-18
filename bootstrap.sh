@@ -48,6 +48,7 @@ if [ ! "$RCM_EXISTS" ]; then
     `brew tap thoughtbot/formulae`
     `brew install rcm`
     `brew install chisel` # for linking up lldbinit
+    `brew install tmux vim zsh mosh xctool`
   else # Not on OS X, so linux
     echo "Installation of rcm is not automated for linux\n"
     echo "Please install it and rerun me.\n"
@@ -62,6 +63,10 @@ TMUX_EXISTS=$?
 if [ ! "$TMUX_EXIST" ]; then
   echo "tmux is recommended but not required.\n"
 fi
+
+# use rvm because im lazy and don't ruby
+exists rvm
+RVM_EXISTS=$?
 
 `git clone https://github.com/dmiedema/dotfiles $HOME/.dotfiles`
 `rcup -x README.md -x bootstrap.sh -x Tomorrow.terminal -x tmuxlinesnapshop.conf`

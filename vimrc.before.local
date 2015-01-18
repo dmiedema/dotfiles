@@ -1,1 +1,1 @@
-" let g:spf13_bundle_groups=['general', 'programming', 'youcompleteme', 'neocomplache', 'php', 'javascript', 'misc']
+let g:spf13_bundle_groups=['general', 'programming', 'neocomplache', 'php', 'javascript', 'misc']

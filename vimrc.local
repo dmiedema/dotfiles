@@ -53,6 +53,7 @@ nnoremap <C-l> <C-w>l
 
 " unbundle autocomplete thing
 UnBundle 'AutoClose'
+UnBundle 'spf13/vim-autoclose'
 
 let g:tmuxcomplete#trigger = ''
 
