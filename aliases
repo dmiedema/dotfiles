@@ -4,4 +4,4 @@ alias podu='pod update'
 alias plistbuddy=/usr/libexec/PlistBuddy
 alias t=todo2
 alias php=/usr/local/Cellar/php55/5.5.15/bin/php
-alias ca=cdargs
+alias cv=cdargs
