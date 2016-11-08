@@ -1,6 +1,7 @@
 [user]
 	name = dmiedema
-	email = danielmiedema@me.com
+	email = danielmiedema+github@me.com
+	signingkey = 91DB669CAA5DB612
 [diff]
 	tool = Kaleidoscope
 [difftool "Kaleidoscope"]
@@ -28,6 +29,8 @@
   branches = branch -a
   remotes = remote -v
   tags = tag -l
+	please = push --force-with-lease
+	commend = commit --amend --no-edit
 [push]
 	default = current
 [pull]
@@ -36,3 +39,9 @@
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[commit]
+	gpgsign = true

@@ -5,3 +5,16 @@ alias plistbuddy=/usr/libexec/PlistBuddy
 alias t=todo2
 alias php=/usr/local/Cellar/php55/5.5.15/bin/php
 alias cv=cdargs
+alias ls='ls -G'
+
+function update_everything() {
+  brew update;
+  brew upgrade --all;
+  brew cleanup;
+  vim +PlugUpdate +qall;
+  sudo gem update
+  sudo gem cleanup
+  gem update
+  gem cleanup
+  zgen update
+}
