@@ -4,6 +4,7 @@
 	signingkey = 91DB669CAA5DB612
 [diff]
 	tool = Kaleidoscope
+	colorMoved = zebra
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
@@ -18,6 +19,7 @@
 	conflictstyle = diff3
 [core]
 	editor = vim
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [help]
 #	autocorrect = 5
 [alias]
@@ -44,4 +46,18 @@
 	smudge = git-lfs smudge %f
 	required = true
 [commit]
-	gpgsign = true
+	; gpgsign = true
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
